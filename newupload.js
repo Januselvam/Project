@@ -40,7 +40,7 @@ app.get('/', (req, res) => {
 // Handle file upload
 app.post('/upload', upload.single('file'), async (req, res) => {
   try {
-    const filePath = req.file.path;
+    const filePath = path.join(__dirname, req.file.path);
     const url = await uploadFileToBlob(filePath);
     res.send(`File uploaded and available at: <a href="${url}">${url}</a>`);
   } catch (error) {
