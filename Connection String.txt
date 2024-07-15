@@ -1,0 +1,15 @@
+Connection String
+ BlobEndpoint=https://mystoreaccounts.blob.core.windows.net/;QueueEndpoint=https://mystoreaccounts.queue.core.windows.net/;FileEndpoint=https://mystoreaccounts.file.core.windows.net/;TableEndpoint=https://mystoreaccounts.table.core.windows.net/;SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=c&sp=rwdlacupiytfx&se=2024-07-03T23:55:53Z&st=2024-07-01T15:55:53Z&spr=https&sig=li%2Fczz6V20p2otHudQvy3hVkNgqeivX0bW%2Fiw1EPw6E%3D
+
+SAS token
+
+sv=2022-11-02&ss=bfqt&srt=c&sp=rwlactfx&se=2024-07-02T07:30:46Z&st=2024-07-01T23:29:46Z&spr=https&sig=zvehreEfj%2B4ZWmvsPcV%2FjfMbtiM3zYj0j1uCIKikLYM%3D
+
+Blob SAS URL
+
+https://mystoreaccounts.blob.core.windows.net/?sv=2022-11-02&ss=bfqt&srt=c&sp=rwdlacupiytfx&se=2024-07-03T06:46:21Z&st=2024-07-01T22:46:21Z&spr=https&sig=5JxwtDJzaPcppu2F0tRwuuesJRvs9MUPKyE%2BWiiyGAw%3D
+
+
+Access key 1 
+connection string
+DefaultEndpointsProtocol=https;AccountName=mystoreaccounts;AccountKey=wk1c297fVqrsnnzoBIufwGsa1Ii3aWCAj22dN7Wuw49qcin4sEGn/Lzn2vYIJ56V90+gYZZIys3E+AStttj8pA==;EndpointSuffix=core.windows.net
