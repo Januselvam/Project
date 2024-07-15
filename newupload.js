@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 4000; // Use the PORT environment variable or default to 4000
 
 // Replace with your Azure Storage connection string and container name
-const AZURE_STORAGE_CONNECTION_STRING = process.env.AZURE_STORAGE_CONNECTION_STRING || 'DefaultEndpointsProtocol=https;AccountName=storageproject1acc;AccountKey=RbwpP6M4if4zSOQfo4E1TbjMUG9dyvtdOlYvGnfkQuLsIxeoFKMKVpHji2QtRP6aESJmaMIR4fyu+AStDWKGag==;EndpointSuffix=core.windows.net';
+const AZURE_STORAGE_CONNECTION_STRING = process.env.AZURE_STORAGE_CONNECTION_STRING;
 const containerName = 'mycon';
 
 // Configure multer for file uploads
